@@ -1,0 +1,21 @@
+{
+  "name": "hellocucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --tags '@e2e' --format json:reports/report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.0.0"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "base64-img": "^1.0.4",
+    "cucumber-html-reporter": "^5.5.0",
+    "testcafe": "^2.4.0"
+  }
+}
